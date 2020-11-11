@@ -1,114 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T15:17:08.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="o23WbVHTjBhw6J2japFy" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-11T05:58:55.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="a0fAZrx-o-8KAveCCR8a" version="13.9.3" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="340" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="580" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;strokeColor=#d79b00;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-59" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="2">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-59" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;" parent="1" source="2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="410" as="sourcePoint" />
             <mxPoint x="320" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-62" value="レンダリングシステムの設定&lt;br&gt;入力コールバックの登録" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-62" value="レンダリングシステムの設定&lt;br&gt;入力コールバックの登録" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="240" y="130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-67" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-62">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-67" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="400" as="sourcePoint" />
             <mxPoint x="320" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-68" value="Chip8システムの初期化&lt;br&gt;ゲームをメモリにロード" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-68" value="Chip8システムの初期化&lt;br&gt;ゲームをメモリにロード" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-70" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-68">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-70" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-68" edge="1" target="B8PhU5EYTa2ILyOKvIhk-72">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="400" as="sourcePoint" />
             <mxPoint x="320" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-72" value="エミュレーションのループ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="260" y="353.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-74" value="終了アクション" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="270" y="767" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-79" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="414" as="sourcePoint" />
-            <mxPoint x="320" y="464" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-80" value="エミュレーションの1サイクル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="270" y="464" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-81" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-80">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="624" as="sourcePoint" />
-            <mxPoint x="320" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-86" value="画面を更新" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="613" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-87" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="743" as="sourcePoint" />
-            <mxPoint x="320" y="767" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-90" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-91" target="B8PhU5EYTa2ILyOKvIhk-97">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.5" y="653" as="sourcePoint" />
-            <mxPoint x="319.5" y="703" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-91" value="描画フラグが&lt;br&gt;設定されている" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="250" y="553" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-96" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-91">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="693" as="sourcePoint" />
-            <mxPoint x="440" y="613" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="593" />
+              <mxPoint x="440" y="270" />
+              <mxPoint x="440" y="40" />
+              <mxPoint x="600" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-97" value="キーを押した状態を保存する" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="235" y="703" width="170" height="40" as="geometry" />
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-72" value="エミュレーションのループ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-101" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-86">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-74" value="終了アクション" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="550" y="483.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-79" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="643" as="sourcePoint" />
-            <mxPoint x="320" y="673" as="targetPoint" />
+            <mxPoint x="600" y="130.5" as="sourcePoint" />
+            <mxPoint x="600" y="180.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-80" value="エミュレーションの1サイクル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="550" y="180.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-81" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-80" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="340.5" as="sourcePoint" />
+            <mxPoint x="600" y="266.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-86" value="画面を更新" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="680" y="329.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-87" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="459.5" as="sourcePoint" />
+            <mxPoint x="600" y="483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-90" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-91" target="B8PhU5EYTa2ILyOKvIhk-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599.5" y="369.5" as="sourcePoint" />
+            <mxPoint x="599.5" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-91" value="描画フラグが&lt;br&gt;設定されている" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#FF8000;fontColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="530" y="269.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-96" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-91" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="409.5" as="sourcePoint" />
+            <mxPoint x="720" y="329.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="673" />
+              <mxPoint x="720" y="309.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-104" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-74" target="B8PhU5EYTa2ILyOKvIhk-72">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-97" value="キーを押した状態を保存する" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#000000;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="515" y="419.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-101" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-86" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="653" as="sourcePoint" />
-            <mxPoint x="240" y="440" as="targetPoint" />
+            <mxPoint x="610" y="359.5" as="sourcePoint" />
+            <mxPoint x="600" y="389.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="797" />
-              <mxPoint x="200" y="384" />
+              <mxPoint x="720" y="389.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-108" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B8PhU5EYTa2ILyOKvIhk-74">
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-104" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-74" target="B8PhU5EYTa2ILyOKvIhk-72" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="369.5" as="sourcePoint" />
+            <mxPoint x="520" y="156.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="513.5" />
+              <mxPoint x="480" y="100.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-108" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="B8PhU5EYTa2ILyOKvIhk-74" edge="1" target="B8PhU5EYTa2ILyOKvIhk-109">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="930" as="sourcePoint" />
             <mxPoint x="320" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8PhU5EYTa2ILyOKvIhk-109" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;strokeColor=#d79b00;fillColor=#FF8000;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="260" y="880" width="120" height="30" as="geometry" />
+        <mxCell id="B8PhU5EYTa2ILyOKvIhk-109" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;strokeColor=#d79b00;fillColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="260" y="580" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
